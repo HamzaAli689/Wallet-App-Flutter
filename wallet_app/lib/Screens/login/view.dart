@@ -10,7 +10,7 @@ import '../../widgets/Social_container.dart';
 import 'logic.dart';
 
 class LoginPage extends StatefulWidget {
-  LoginPage({Key? key}) : super(key: key);
+  const LoginPage({Key? key}) : super(key: key);
 
   @override
   State<LoginPage> createState() => _LoginPageState();
@@ -28,12 +28,12 @@ class _LoginPageState extends State<LoginPage> {
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.only(right: 25, left: 25),
-          child: Container(
+          child: SizedBox(
             width: size.width,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Gap(15),
+                const Gap(15),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
@@ -42,8 +42,8 @@ class _LoginPageState extends State<LoginPage> {
                       height: 45,
                       width: 45,
                     ),
-                    Gap(5),
-                    Text(
+                    const Gap(5),
+                    const Text(
                       "PALACE",
                       style: TextStyle(
                         color: Color(0xFF6F00FF),
@@ -55,7 +55,7 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                   ],
                 ),
-                const Gap(20),
+                const Gap(10),
                 const Text(
                   "Log in Account",
                   style: TextStyle(
@@ -75,16 +75,16 @@ class _LoginPageState extends State<LoginPage> {
                     decoration: TextDecoration.none,
                   ),
                 ),
-                Gap(50),
+                const Gap(40),
                 Etextfields(),
-                Gap(10),
+                const Gap(10),
                 Ptextfields(),
-                Gap(10),
+                const Gap(10),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: [
-                    Checkbox(
-                      activeColor: Color(0xFF6F00FF),
+                    Checkbox(shape: ContinuousRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                      activeColor: const Color(0xFF6F00FF),checkColor: Colors.white,
                       value: rememberMe,
                       onChanged: (bool? value) {
                         setState(() {
@@ -102,9 +102,9 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                   ],
                 ),
-                const Gap(20),
-                LoginButton(),
-                Gap(20),
+                const Gap(15),
+                const LoginButton(),
+                const Gap(15),
                 Text(
                   "Forgot Password?",
                   style: TextStyle(
@@ -114,10 +114,10 @@ class _LoginPageState extends State<LoginPage> {
                     decoration: TextDecoration.none,
                   ),
                 ),
-                Gap(20),
+                const Gap(15),
                 Row(
                   children: [
-                    Expanded(
+                    const Expanded(
                       child: Divider(
                         color: Colors.grey,
                         thickness: 1,
@@ -127,7 +127,7 @@ class _LoginPageState extends State<LoginPage> {
                       " OR ",
                       style: TextStyle(color: customPurple, fontSize: 12),
                     ),
-                    Expanded(
+                    const Expanded(
                       child: Divider(
                         color: Colors.grey,
                         thickness: 1,
@@ -135,19 +135,19 @@ class _LoginPageState extends State<LoginPage> {
                     )
                   ],
                 ),
-                Gap(20),
-                Row(
+                const Gap(15),
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     GoogleApple(image: 'assets/googleg.png', title: 'GOOGLE',),
                     GoogleApple(image: 'assets/apple.png', title: 'APPLE',),
                   ],
                 ),
-                Gap(40),
+                const Gap(30),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text(
+                    const Text(
                       "Don't have an account?",
                       style: TextStyle(
                         color: Colors.black54,
@@ -167,7 +167,7 @@ class _LoginPageState extends State<LoginPage> {
                     ), )
                   ],
                 ),
-                Gap(30),
+                const Gap(30),
               ],
             ),
           ),

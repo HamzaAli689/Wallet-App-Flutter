@@ -18,7 +18,7 @@ class _PtextfieldsState extends State<Ptextfields> {
       child: TextFormField(
         obscureText: obscureText,
         decoration: InputDecoration(
-          prefixIcon: Icon(Icons.lock_outline_rounded,color: Color(0xFF6F00FF),),
+          prefixIcon: const Icon(Icons.lock_outline_rounded,color: Color(0xFF6F00FF),),
           suffixIcon: IconButton(
             icon: Icon(
               obscureText ? Icons.visibility_off : Icons.visibility,

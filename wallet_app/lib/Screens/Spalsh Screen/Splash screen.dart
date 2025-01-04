@@ -14,7 +14,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     Future.delayed(const Duration(seconds: 3), () {
-      Get.off(() =>  LoginPage());
+      Get.off(() =>  const LoginPage());
     });
   }
 
@@ -46,7 +46,7 @@ class _SplashScreenState extends State<SplashScreen> {
               ],
             ),
             const Spacer(),
-            CircularProgressIndicator(
+            const CircularProgressIndicator(
               color: Colors.white,
             ),
             const Spacer(),

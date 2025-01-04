@@ -17,7 +17,7 @@ class GoogleApple extends StatelessWidget {
         onTap: (){},
         child: Container(
           height: 50,
-          width: size.width * .43,
+          width: size.width * .35,
           decoration: BoxDecoration(
               color: fillcolor,
               borderRadius: BorderRadius.circular(10)),
