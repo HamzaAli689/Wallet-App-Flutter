@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 import 'package:get/get.dart';
 import 'package:wallet_app/constants/colors.dart';
 
+import '../../widgets/SendContainer.dart';
+import '../../widgets/profiletile.dart';
+import '../../widgets/upperHomeContainer.dart';
 import 'logic.dart';
 
 class HomePage extends StatelessWidget {
@@ -22,28 +26,15 @@ class HomePage extends StatelessWidget {
               decoration: BoxDecoration(
                 color: customPurple,
               ),
-              child: Padding(
-                padding: const EdgeInsets.all(10),
-                child: Column(
-                  children: [
-                    ListTile(
-                      leading: Container(
-                        height: 50,
-                        width: 50,
-                        decoration: BoxDecoration(
-                          color: Colors.red,
-                          borderRadius: BorderRadius.circular(50),
-
-                        ),
-                        child: ClipOval(child: Image.asset("assets/profile1.jpeg",width: 50,height: 50,fit: BoxFit.fill,)),
-                      ),
-                    )
-                  ],
-                ),
-              ),
+              child:  Upperhomecontainer(),
             ),
             Container(
               width: size.width,
+              child: Column(
+                children: [
+                  Text("Benificiaries")
+                ],
+              ),
             ),
           ],
         ),
