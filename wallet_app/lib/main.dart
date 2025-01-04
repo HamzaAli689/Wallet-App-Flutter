@@ -1,20 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'Screens/Spalsh Screen/Splash screen.dart';
+import 'Screens/home/view.dart';
 import 'Screens/login/view.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp( MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+   MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const GetMaterialApp(
+    return  GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginPage(),
+      //home: LoginPage(),
+     home: HomePage(),
      // home: SplashScreen(),
     );
   }
