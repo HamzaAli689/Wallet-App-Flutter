@@ -14,7 +14,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     Future.delayed(const Duration(seconds: 3), () {
-      Get.off(() =>  LoginPage()); // Use Get.off instead of Get.to for better navigation flow
+      Get.off(() =>  LoginPage());
     });
   }
 
@@ -30,7 +30,7 @@ class _SplashScreenState extends State<SplashScreen> {
             Column(
               children: [
                 Image.asset(
-                  'assets/logo.png', // Ensure this path is correct, and the file exists
+                  'assets/logo.png',
                   width: 150,
                   height: 150,
                 ),
