@@ -32,7 +32,10 @@ class HomePage extends StatelessWidget {
               width: size.width,
               child: Column(
                 children: [
-                  Text("Benificiaries")
+                  Text("Benificiaries",style: TextStyle(
+                    color: Colors.black,fontSize: 24,
+                    fontWeight: FontWeight.bold
+                  ),)
                 ],
               ),
             ),
