@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:wallet_app/Screens/home/view.dart';
 
 import '../constants/colors.dart';
 
@@ -11,7 +13,9 @@ class LoginButton extends StatelessWidget {
     return Card(
       elevation: 5,
       child: InkWell(
-          onTap: () {},
+          onTap: () {
+            Get.to(() =>  HomePage());
+            },
           child: Container(
             height: 50,
             width: size.width,
