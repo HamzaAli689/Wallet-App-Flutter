@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../constants/colors.dart';
+
 class Ptextfields extends StatefulWidget {
 
   Ptextfields({super.key,});
@@ -18,11 +20,11 @@ class _PtextfieldsState extends State<Ptextfields> {
       child: TextFormField(
         obscureText: obscureText,
         decoration: InputDecoration(
-          prefixIcon: const Icon(Icons.lock_outline_rounded,color: Color(0xFF6F00FF),),
+          prefixIcon:  Icon(Icons.lock_outline_rounded,color: customPurple,),
           suffixIcon: IconButton(
             icon: Icon(
               obscureText ? Icons.visibility_off : Icons.visibility,
-              color: const Color(0xFF6F00FF),
+              color: customPurple,
             ),
             onPressed: () {
               setState(() {
@@ -36,7 +38,7 @@ class _PtextfieldsState extends State<Ptextfields> {
             fontSize: 16,
           ),
           filled: true,
-          fillColor: const Color(0xFFCCCCFF),
+          fillColor: fillcolor,
           border: const OutlineInputBorder(
             borderRadius: BorderRadius.all(Radius.circular(10)),
           ),

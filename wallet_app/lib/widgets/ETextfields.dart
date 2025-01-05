@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../constants/colors.dart';
+
 class Etextfields extends StatefulWidget {
   Etextfields({super.key,});
 
@@ -14,15 +16,15 @@ class _EtextfieldsState extends State<Etextfields> {
     return Card(
       elevation: 5,
       child: TextFormField(
-        decoration: const InputDecoration(
-          prefixIcon: Icon(Icons.email_outlined,color: Color(0xFF6F00FF),),
+        decoration:  InputDecoration(
+          prefixIcon: Icon(Icons.email_outlined,color: customPurple,),
           hintText: "Hamzaalivr33@gmail.com",
-          hintStyle: TextStyle(
+          hintStyle: const TextStyle(
             color: Colors.grey,
             fontSize: 16,
           ),
           filled: true,
-          fillColor: Color(0xFFCCCCFF),
+          fillColor: fillcolor,
           border: OutlineInputBorder(
             borderRadius: BorderRadius.all(Radius.circular(10)),
           ),
