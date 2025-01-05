@@ -37,6 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   get:
   gap:
+  awesome_bottom_bar: ^1.2.4
 
 dev_dependencies:
   flutter_test:
