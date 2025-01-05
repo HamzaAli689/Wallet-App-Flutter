@@ -22,10 +22,9 @@ class Upperhomecontainer extends StatelessWidget {
               children: [
                 Gap(5),
                 Text("Current Balance",style: TextStyle(
-                    color: Colors.white54,
-                    fontSize: 12
+                    color: Colors.white60,
+                    fontSize: 13
                 ),),
-                Gap(5),
                 Text("\$250,000.000",style: TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
