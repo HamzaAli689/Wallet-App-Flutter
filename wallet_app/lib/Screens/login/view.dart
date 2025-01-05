@@ -43,10 +43,10 @@ class _LoginPageState extends State<LoginPage> {
                       width: 45,
                     ),
                     const Gap(5),
-                    const Text(
+                     Text(
                       "PALACE",
                       style: TextStyle(
-                        color: Color(0xFF6F00FF),
+                        color: customPurple,
                         fontSize: 24,
                         letterSpacing: 2,
                         fontWeight: FontWeight.bold,
@@ -84,7 +84,7 @@ class _LoginPageState extends State<LoginPage> {
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     Checkbox(shape: ContinuousRectangleBorder(borderRadius: BorderRadius.circular(10)),
-                      activeColor: const Color(0xFF6F00FF),checkColor: Colors.white,
+                      activeColor: customPurple,checkColor: Colors.white,
                       value: rememberMe,
                       onChanged: (bool? value) {
                         setState(() {
