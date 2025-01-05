@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 
-Color customPurple = const Color(0xFF6F00FF);
+Color customPurple = const Color(0xFF8F00FF);
 Color fillcolor = const Color(0xFFCCCCFF);
 
 
