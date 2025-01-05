@@ -24,19 +24,18 @@ class HomePage extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-
             Container(
               width: size.width,
               height: size.height * .40,
               decoration: BoxDecoration(
                 color: customPurple,
               ),
-              child: Upperhomecontainer(),
+              child: const Upperhomecontainer(),
             ),
             Container(
               width: size.width,
-              child: Padding(
-                padding: const EdgeInsets.only(left: 20, right: 20, top: 10),
+              child: const Padding(
+                padding: EdgeInsets.only(left: 20, right: 20, top: 10),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
