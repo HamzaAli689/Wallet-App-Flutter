@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 import 'package:get/get.dart';
+import 'package:wallet_app/constants/colors.dart';
 import '../login/view.dart'; // Ensure this file and class exist
 
 class SplashScreen extends StatefulWidget {
@@ -21,7 +23,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF6F00FF),
+      backgroundColor: customPurple,
       body: SafeArea(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -49,7 +51,7 @@ class _SplashScreenState extends State<SplashScreen> {
             const CircularProgressIndicator(
               color: Colors.white,
             ),
-            const Spacer(),
+            Gap(30),
             const Padding(
               padding: EdgeInsets.only(bottom: 20.0),
               child: Row(
