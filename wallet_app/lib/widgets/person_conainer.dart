@@ -15,7 +15,7 @@ class PersonContainer extends StatelessWidget {
       elevation: 2,
       child: Container(
         height: 70,
-        width: size.width * .70,
+        width: size.width * .78,
         decoration: BoxDecoration(
           color: fillcolor,
           borderRadius: BorderRadius.circular(15),
@@ -48,7 +48,7 @@ class PersonContainer extends StatelessWidget {
                   fontWeight: FontWeight.w600,
                   letterSpacing: 1,
                 ),),
-                Gap(15),
+                Gap(5),
                 Text("3217653911",style: TextStyle(
                   color: customPurple,
                   fontSize: 12,
