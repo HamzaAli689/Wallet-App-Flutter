@@ -3,6 +3,7 @@ import 'package:gap/gap.dart';
 import 'package:get/get.dart';
 import 'package:wallet_app/constants/colors.dart';
 
+import '../../constants/BottomBar.dart';
 import '../../widgets/SendContainer.dart';
 import '../../widgets/Transaction_Container.dart';
 import '../../widgets/person_conainer.dart';
@@ -129,6 +130,7 @@ class HomePage extends StatelessWidget {
           ],
         ),
       ),
+      bottomNavigationBar: CustomBottomNavBar() ,
     );
   }
 }
