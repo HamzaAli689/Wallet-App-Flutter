@@ -22,7 +22,7 @@ class Profiletile extends StatelessWidget {
       ),
       title: Text("Hi, Hamza",
         style: TextStyle(color: Colors.white,
-            fontSize: 15,
+            fontSize: 18,
             fontWeight: FontWeight.bold
         ),
       ),
