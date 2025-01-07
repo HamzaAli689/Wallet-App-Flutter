@@ -77,14 +77,17 @@ Ensure you have the following installed:
 
 ### Splash Screen
 
+<img width="188" alt="spalsh" src="https://github.com/user-attachments/assets/5e726117-9c39-48b1-8eb8-61c279bc1f0a" />
 
 
 ### Login Screen
 
+<img width="187" alt="login" src="https://github.com/user-attachments/assets/3468c59f-a772-4378-8d22-9e933ce18b81" />
 
 
 ### Dashboard
 
+<img width="169" alt="dashboard" src="https://github.com/user-attachments/assets/71520ff5-0568-458c-9929-bca73f3fdcd2" />
 
 
 ---
