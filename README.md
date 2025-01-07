@@ -1,6 +1,3 @@
-# Wallet-App-Flutter
-
-<img width="594" alt="place wallet" src="https://github.com/user-attachments/assets/89dabfb0-c5f8-4c70-8c41-62900447d836" />
 # Palace Wallet App
 
 A modern, feature-rich wallet application built using Flutter, inspired by sleek and intuitive UI designs. This application allows users to:
@@ -9,6 +6,8 @@ A modern, feature-rich wallet application built using Flutter, inspired by sleek
 - View current balances
 - Track recent transactions
 - Add beneficiaries
+
+  <img width="594" alt="place wallet" src="https://github.com/user-attachments/assets/89dabfb0-c5f8-4c70-8c41-62900447d836" />
 
 ## Features
 
