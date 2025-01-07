@@ -92,26 +92,6 @@ Ensure you have the following installed:
 
 ---
 
-## Contributing
-
-Contributions are welcome! To contribute:
-
-1. Fork the repository
-2. Create a feature branch:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add some feature"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-5. Open a pull request
-
----
 
 ## License
 
@@ -125,5 +105,5 @@ For any queries or support, feel free to contact:
 
 - **Name**: Hamza Ali
 - **Email**: [Hamzaalivr33@gmail.com](mailto\:Hamzaalivr33@gmail.com)
-- **GitHub**: [HamzaAliVR](https://github.com/HamzaAliVR)
+- **GitHub**: [HamzaAli689](https://github.com/HamzaAli689)
 
